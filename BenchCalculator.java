@@ -1,9 +1,11 @@
 public class BenchCalculator {
 
-	private int[7][2] sets;
+	private int[][] sets;
 	private int max;
 
-	public BenchCalculator(int max) {
+	public void pyramid(int max) {
+		sets = new int[7][2];
+		
 		sets[0][0] = (int)(max * 0.55);
 		sets[1][0] = (int)(max * 0.65);
 		sets[2][0] = (int)(max * 0.75);
