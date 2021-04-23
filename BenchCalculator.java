@@ -19,5 +19,13 @@ public class BenchCalculator {
 		sets[4][1] = 3;
 		sets[5][1] = 2;
 		sets[6][1] = 6;
+
+		for (int i = 0; i < sets.length; i++) {
+			if (sets[i] % 5 < 2) {
+				sets[i] -= sets[i] % 5;
+			} else {
+				sets[i] += (5 - sets[i] % 5);
+			}
+		}
 	}
 }
