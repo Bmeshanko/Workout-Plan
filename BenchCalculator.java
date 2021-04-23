@@ -16,16 +16,6 @@ public class BenchCalculator {
 		sets[5] = (int)(max * 0.925);
 		sets[6] = (int)(max * 0.75);
 
-		for (int i = 0; i < sets.length; i++) {
-			
-			if (sets[i] % 5 < 2) {
-				sets[i] -= sets[i] % 5;
-			} else {
-				sets[i] += (5 - sets[i] % 5);
-			}
-
-		}
-
 		System.out.println("---------------------------");
 		System.out.println("Set 1: " + sets[0] + " x 10");
 		System.out.println("Set 2: " + sets[1] + " x 8");
@@ -33,6 +23,5 @@ public class BenchCalculator {
 		System.out.println("Set 4: " + sets[3] + " x 4");
 		System.out.println("Set 5: " + sets[4] + " x 3");
 		System.out.println("Set 6: " + sets[5] + " x 2");
-		System.out.println("Set 7: " + sets[6] + " x 6");
 	}
 }
