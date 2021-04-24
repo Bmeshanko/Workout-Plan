@@ -30,4 +30,8 @@ public class BenchCalculator {
 			}
 		}
 	}
+	
+	public void fivefive(int max) {
+		sets = new int[5][2];
+		
 }
