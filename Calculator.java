@@ -44,6 +44,8 @@ public class Calculator {
 		sets[2][0] = (int)(max * 0.85);
 		sets[3][0] = (int)(max * 0.85);
 		sets[4][0] = (int)(max * 0.85);
+
+		
 	}
 
 	public void tenten() {
@@ -59,5 +61,15 @@ public class Calculator {
 		sets[7][0] = (int)(max * 0.6);
 		sets[8][0] = (int)(max * 0.6);
 		sets[9][0] = (int)(max * 0.6);
+	}
+	
+	public void buildup() {
+		sets = new int[6][2];
+		
+		sets[0][0] = (int)(max * 0.75);
+		sets[1][0] = sets[0][0] + 5;
+		sets[2][0] = sets[0][0] + 10;
+		sets[3][0] = sets[0][0] + 15;
+		sets[4][0] = sets[0][0] + 20;
 	}
 }
