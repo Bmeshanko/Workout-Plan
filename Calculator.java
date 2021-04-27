@@ -6,6 +6,16 @@ public class Calculator {
 		this.max = max;
 	}
 
+	public void round() {
+		for (int i = 0; i < sets.length; i++) {
+			if (sets[i] % 5 < 2) {
+				sets[i] -= sets[i] % 5;
+			} else {
+				sets[i] += (5 - sets[i] % 5);
+			}
+		}
+	}
+
 	public void pyramid() {
 		sets = new int[7][2];
 		
@@ -24,13 +34,15 @@ public class Calculator {
 		sets[4][1] = 3;
 		sets[5][1] = 2;
 		sets[6][1] = 6;
+	}
 
-		for (int i = 0; i < sets.length; i++) {
-			if (sets[i] % 5 < 2) {
-				sets[i] -= sets[i] % 5;
-			} else {
-				sets[i] += (5 - sets[i] % 5);
-			}
-		}
+	public void fivefive() {
+		sets = new int[5][2];
+
+		sets[0][0] = (int)(max * 0.85);
+		sets[1][0] = (int)(max * 0.85);
+		sets[2][0] = (int)(max * 0.85);
+		sets[3][0] = (int)(max * 0.85);
+		sets[4][0] = (int)(max * 0.85);
 	}
 }
