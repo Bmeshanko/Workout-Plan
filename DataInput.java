@@ -40,7 +40,16 @@ public class DataInput {
 	public void readFile() {
 		BufferedReader br = new BufferedReader(new FileReader("input.txt"));
 		
-		String
+		int i = 0;
+		int[] allLifts = new int[22];
+		while(true) {
+			String line = br.readLine();
+			if (line == null) break;
+
+			String[] lift = line.split(": ");
+			allLifts[i++] = Integer.parseInt(lift[1]);
+		}
+
 		
 	}
 
