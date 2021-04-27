@@ -37,7 +37,7 @@ public class DataInput {
 	// 6: Outer Thigh
 	// Not Included: Calf Raises
 
-	public void readFile() {
+	public void readFile() throws IOException {
 		BufferedReader br = new BufferedReader(new FileReader("input.txt"));
 		
 		int i = 0;
@@ -50,10 +50,20 @@ public class DataInput {
 			allLifts[i++] = Integer.parseInt(lift[1]);
 		}
 
-		
+		for (int i = 0; i < 9; i++) {
+			this.pushLifts[i] = allLifts[i];
+		}
+
+		for (int i = 0; i < 6; i++) {
+			this.pullLifts[i] = allLifts[i + 9];
+		}
+
+		for (int i = 0; i < 7; i++) {
+			this.legLifts[i] = allLifts[i + 15];
+		}
 	}
 
-	public void writeFile(String fileName) {
+	public void writeFile(String fileName) throws IOException {
 		PrintWriter pw = new PrintWriter(fileName);
 	
 
