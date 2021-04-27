@@ -7,18 +7,18 @@ Tricep Pushdown: 60
 Shoulder Press: 80
 Lateral/Front Raises: 15
 Clean and Press: 125
-LAT Pulldown:
-Deadlift:
-Low Row:
-Seated Bicep Curls:
-Dumbbell Row:
-Standing Cable Curls:
-Squat:
-Lunge:
-Leg Press:
-Leg Curl:
-Leg Extension:
-Inner Thigh:
-Outer Thigh:
+LAT Pulldown: 100
+Deadlift: 135
+Low Row: 110
+Seated Bicep Curls: 25
+Dumbbell Row: 25
+Standing Cable Curls: 50
+Squat: 190
+Lunge: 155
+Leg Press: 280
+Leg Curl: 90
+Leg Extension: 90
+Inner Thigh: 120
+Outer Thigh: 120
 
 
