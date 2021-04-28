@@ -93,10 +93,10 @@ public class Calculator {
 		sets[3][0] = sets[0][0] + 15;
 		sets[4][0] = sets[0][0] + 20;
 
-		sets[0][1] = 8
-		sets[1][1] = 7
-		sets[2][1] = 5
-		sets[3][1] = 4
-		sets[4][1] = 3
+		sets[0][1] = 8;
+		sets[1][1] = 7;
+		sets[2][1] = 5;
+		sets[3][1] = 4;
+		sets[4][1] = 3;
 	}
 }
