@@ -1,24 +1,24 @@
-Bench Press: 165
-Incline Bench Press: 135
-Deltoid Flex: 90
-Tricep Extension: 60
-Tricep Dips: 150
-Tricep Pushdown: 60
-Shoulder Press: 80
-Lateral/Front Raises: 15
-Clean and Press: 125
-LAT Pulldown: 100
-Deadlift: 135
-Low Row: 110
-Seated Bicep Curls: 25
-Dumbbell Row: 25
-Standing Cable Curls: 50
-Squat: 190
-Lunge: 155
-Leg Press: 280
-Leg Curl: 90
-Leg Extension: 90
-Inner Thigh: 120
-Outer Thigh: 120
+165
+135
+90
+60
+150
+60
+80
+15
+125
+100
+135
+110
+25
+25
+50
+190
+155
+280
+90
+90
+120
+120
 
 

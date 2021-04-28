@@ -40,14 +40,12 @@ public class DataInput {
 	public void readFile() throws IOException {
 		BufferedReader br = new BufferedReader(new FileReader("input.txt"));
 		
-		int i = 0;
+		int c = 0;
 		int[] allLifts = new int[22];
 		while(true) {
 			String line = br.readLine();
 			if (line == null) break;
-
-			String[] lift = line.split(": ");
-			allLifts[i++] = Integer.parseInt(lift[1]);
+			allLifts[c++] = Integer.parseInt(line);
 		}
 
 		for (int i = 0; i < 9; i++) {
@@ -65,7 +63,8 @@ public class DataInput {
 
 	public void writeFile(String fileName) throws IOException {
 		PrintWriter pw = new PrintWriter(fileName);
-	
+		
+		
 
 	}
 }
