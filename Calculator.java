@@ -1,9 +1,8 @@
 public class Calculator {
 	private int[][] sets;
-	private int max;
-	
-	public Calculator(int max) {
-		this.max = max;
+
+	public int[][] getSets() {
+		return this.sets;
 	}
 
 	public void round() {
@@ -16,7 +15,7 @@ public class Calculator {
 		}
 	}
 
-	public void pyramid() {
+	public void pyramid(int max) {
 		sets = new int[7][2];
 		
 		sets[0][0] = (int)(max * 0.55);
@@ -36,7 +35,7 @@ public class Calculator {
 		sets[6][1] = 6;
 	}
 
-	public void fivefive() {
+	public void fivefive(int max) {
 		sets = new int[5][2];
 
 		sets[0][0] = (int)(max * 0.85);
@@ -50,7 +49,7 @@ public class Calculator {
 		}
 	}
 
-	public void tenten() {
+	public void tenten(int max) {
 		sets = new int[10][2];
 
 		sets[0][0] = (int)(max * 0.6);
@@ -69,8 +68,14 @@ public class Calculator {
 		}
 	}
 	
-	public void buildup() {
-		// Should have possibility to change increments.
+	public void machine() {
+		sets = new int[4][2];
+
+		sets[0][0] =  
+	}
+
+	public void buildup(int max) {
+		// Should maybe have possibility to change increments.
 
 		sets = new int[6][2];
 		

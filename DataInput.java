@@ -1,7 +1,6 @@
 import java.io.*;
 
 public class DataInput {
-
 	
 	// Machines with Star will be max weight.
 	// Machines without Star will be 4x10 weight.
@@ -68,16 +67,16 @@ public class DataInput {
 			pw.println(this.pushLifts[i]);
 		}
 
-		for (int i = 0; i < 9; i++) {
+		for (int i = 0; i < 6; i++) {
 			pw.println(this.pullLifts[i]);
 		}
 
-		for (int i = 0; i < 9; i++) {
+		for (int i = 0; i < 7; i++) {
 			pw.println(this.legLifts[i]);
 		}
 	}
 
 	public void writeOutputFile() throws IOException {
-		
+
 	}
 }
