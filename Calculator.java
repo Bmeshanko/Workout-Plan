@@ -68,10 +68,18 @@ public class Calculator {
 		}
 	}
 	
-	public void machine() {
+	public void machine(int weight) {
 		sets = new int[4][2];
 
-		sets[0][0] =  
+		sets[0][0] = weight;
+		sets[1][0] = weight;
+		sets[2][0] = weight;
+		sets[3][0] = weight; 
+
+		sets[0][1] = 10;
+		sets[1][1] = 10;
+		sets[2][1] = 10;
+		sets[3][1] = 10; 
 	}
 
 	public void buildup(int max) {
