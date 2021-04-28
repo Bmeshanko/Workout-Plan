@@ -37,7 +37,7 @@ public class DataInput {
 	// 6: Outer Thigh
 	// Not Included: Calf Raises
 
-	public void readFile() throws IOException {
+	public void readInputFile() throws IOException {
 		BufferedReader br = new BufferedReader(new FileReader("input.txt"));
 		
 		int c = 0;
@@ -61,10 +61,23 @@ public class DataInput {
 		}
 	}
 
-	public void writeFile(String fileName) throws IOException {
-		PrintWriter pw = new PrintWriter(fileName);
+	public void writeInputFile() throws IOException {
+		PrintWriter pw = new PrintWriter("input.txt");
 		
-		
+		for (int i = 0; i < 9; i++) {
+			pw.println(this.pushLifts[i]);
+		}
 
+		for (int i = 0; i < 9; i++) {
+			pw.println(this.pullLifts[i]);
+		}
+
+		for (int i = 0; i < 9; i++) {
+			pw.println(this.legLifts[i]);
+		}
+	}
+
+	public void writeOutputFile() throws IOException {
+		
 	}
 }
