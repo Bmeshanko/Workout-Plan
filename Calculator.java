@@ -7,10 +7,10 @@ public class Calculator {
 
 	public void round() {
 		for (int i = 0; i < sets.length; i++) {
-			if (sets[i] % 5 < 2) {
-				sets[i] -= sets[i] % 5;
+			if (sets[i][0] % 5 < 2) {
+				sets[i][0] -= sets[i][0] % 5;
 			} else {
-				sets[i] += (5 - sets[i] % 5);
+				sets[i][0] += (5 - sets[i][0] % 5);
 			}
 		}
 	}
