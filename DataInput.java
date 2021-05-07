@@ -72,7 +72,7 @@ public class DataInput {
 			data.lifts[number] = weight;
 			number = scan.nextInt();
 		}
-
-
+		
+		data.writeInputFile();
 	}
 }
