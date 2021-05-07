@@ -68,7 +68,7 @@ public class DataInput {
 		System.out.println("Enter new weights, first with the exercise number (0-21) and followed by the new weight. Enter -1 to stop.");
 		int number = scan.nextInt();
 		while (number != -1) {
-			weight = scan.nextInt();
+			int weight = scan.nextInt();
 			data.lifts[number] = weight;
 			number = scan.nextInt();
 		}
