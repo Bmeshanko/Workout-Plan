@@ -42,7 +42,7 @@ public class DataInput {
 		while(true) {
 			String line = br.readLine();
 			if (line == null) break;
-			allLifts[i++] = Integer.parseInt(line);
+			this.lifts[i++] = Integer.parseInt(line);
 		}
 	}
 
