@@ -50,7 +50,7 @@ public class DataInput {
 		PrintWriter pw = new PrintWriter("input.txt");
 		
 		for (int i = 0; i < 22; i++) {
-			
+			pw.println(this.lifts[i]);
 		}
 	}
 
@@ -58,7 +58,7 @@ public class DataInput {
 
 	}
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws IOException {
 		DataInput data = new DataInput();
 		data.readInputFile();
 		
@@ -67,11 +67,10 @@ public class DataInput {
 
 		System.out.println("Enter new weights, first with the exercise number (0-21) and followed by the new weight. Enter -1 to stop.");
 		int number = scan.nextInt();
-		int weight = scan.nextInt();
 		while (number != -1) {
+			weight = scan.nextInt();
 			data.lifts[number] = weight;
 			number = scan.nextInt();
-			weight = scan.nextInt();
 		}
 
 
