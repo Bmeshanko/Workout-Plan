@@ -1,4 +1,5 @@
 import java.io.*;
+import java.util.Scanner;
 
 public class DataInput {
 	
@@ -60,7 +61,19 @@ public class DataInput {
 	public static void main(String[] args) {
 		DataInput data = new DataInput();
 		data.readInputFile();
-
+		
 		Calculator calc = new Calculator();
+		Scanner scan = new Scanner(System.in);
+
+		System.out.println("Enter new weights, first with the exercise number (0-21) and followed by the new weight. Enter -1 to stop.");
+		int number = scan.nextInt();
+		int weight = scan.nextInt();
+		while (number != -1) {
+			data.lifts[number] = weight;
+			number = scan.nextInt();
+			weight = scan.nextInt();
+		}
+
+
 	}
 }
