@@ -52,6 +52,7 @@ public class DataInput {
 		for (int i = 0; i < 22; i++) {
 			pw.println(this.lifts[i]);
 		}
+		pw.close();
 	}
 
 	public void writeOutputFile() throws IOException {
