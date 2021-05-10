@@ -48,7 +48,6 @@ public class DataInput {
 
 	public void writeInputFile() throws IOException {
 		PrintWriter pw = new PrintWriter("input.txt");
-		Calculator calc = new Calculator();
 
 		for (int i = 0; i < 22; i++) {
 			pw.println(this.lifts[i]);
@@ -58,21 +57,30 @@ public class DataInput {
 
 	public void writeOutputFile(int option) throws IOException {
 		PrintWriter pw = new PrintWriter("output.txt");
+		Calculator calc = new Calculator();
 		switch (option) {
-		
 		case 1:
-
+			// Push Day
+			calc.pyramid(this.lifts[0]);
+			pw.println("Exercise 1: Bench Press");
+			for (int i = 0; i < calc.getSets().length; i++) {
+				pw.println("Set " + i + ": " + calc.getSets()[i][0] + " x " + calc.getSets[i][1]);
+			}
 			break;
 		case 2:
-
+			// Pull Day
+		
 			break;
 		case 3:
-
+			// Leg Day
+			
 			break;
 		case 4:
+			// Cardio Day
 
 			break;
 		}
+		pw.close();
 	}
 
 	public static void main(String[] args) throws IOException {
