@@ -56,7 +56,22 @@ public class DataInput {
 	}
 
 	public void writeOutputFile(int option) throws IOException {
+		PrintWriter pw = new PrintWriter("output.txt");
+		switch (option) {
+		
+		case 1:
 
+			break;
+		case 2:
+
+			break;
+		case 3:
+
+			break;
+		case 4:
+
+			break;
+		}
 	}
 
 	public static void main(String[] args) throws IOException {
