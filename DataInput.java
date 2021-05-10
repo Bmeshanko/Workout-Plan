@@ -48,7 +48,8 @@ public class DataInput {
 
 	public void writeInputFile() throws IOException {
 		PrintWriter pw = new PrintWriter("input.txt");
-		
+		Calculator calc = new Calculator();
+
 		for (int i = 0; i < 22; i++) {
 			pw.println(this.lifts[i]);
 		}
