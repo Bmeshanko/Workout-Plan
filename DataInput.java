@@ -64,7 +64,7 @@ public class DataInput {
 			calc.pyramid(this.lifts[0]);
 			pw.println("Exercise 1: Bench Press");
 			for (int i = 0; i < calc.getSets().length; i++) {
-				pw.println("Set " + i + ": " + calc.getSets()[i][0] + " x " + calc.getSets[i][1]);
+				pw.println("Set " + i + ": " + calc.getSets()[i][0] + " x " + calc.getSets()[i][1]);
 			}
 			break;
 		case 2:
