@@ -1,1 +1,8 @@
-
+Exercise 1: Bench Press
+Set 0: 90 x 10
+Set 1: 110 x 8
+Set 2: 125 x 6
+Set 3: 140 x 4
+Set 4: 145 x 3
+Set 5: 155 x 2
+Set 6: 125 x 6

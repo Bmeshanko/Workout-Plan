@@ -33,6 +33,7 @@ public class Calculator {
 		sets[4][1] = 3;
 		sets[5][1] = 2;
 		sets[6][1] = 6;
+		round();
 	}
 
 	public void fivefive(int max) {
@@ -47,6 +48,7 @@ public class Calculator {
 		for (int i = 0; i < 5; i++) {
 			sets[i][1] = 5;
 		}
+		round();
 	}
 
 	public void tenten(int max) {
@@ -66,6 +68,7 @@ public class Calculator {
 		for (int i = 0; i < 10; i++) {
 			sets[i][1] = 10;
 		}
+		round();
 	}
 	
 	public void machine(int weight) {
@@ -79,7 +82,8 @@ public class Calculator {
 		sets[0][1] = 10;
 		sets[1][1] = 10;
 		sets[2][1] = 10;
-		sets[3][1] = 10; 
+		sets[3][1] = 10;
+		round();
 	}
 
 	public void buildup(int max) {
@@ -98,5 +102,6 @@ public class Calculator {
 		sets[2][1] = 5;
 		sets[3][1] = 4;
 		sets[4][1] = 3;
+		round();
 	}
 }
