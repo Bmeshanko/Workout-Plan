@@ -61,11 +61,21 @@ public class DataInput {
 		switch (option) {
 		case 1:
 			// Push Day
+			
+			pw.println("Push Day - Chest, Shoulders and Triceps");
+
 			calc.pyramid(this.lifts[0]);
-			pw.println("Exercise 1: Bench Press");
+			pw.println("\nExercise 1: Bench Press:");
 			for (int i = 0; i < calc.getSets().length; i++) {
 				pw.println("Set " + i + ": " + calc.getSets()[i][0] + " x " + calc.getSets()[i][1]);
 			}
+
+			calc.pyramid(this.lifts[1]);
+			pw.println("\nExercise 2: Incline Bench Press:");
+			for (int i = 0; i < calc.getSets().length; i++) {
+				pw.println("Set " + i + ": " + calc.getSets()[i][0] + " x " + calc.getSets()[i][1]); 
+			}
+
 			break;
 		case 2:
 			// Pull Day
