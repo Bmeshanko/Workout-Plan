@@ -88,8 +88,36 @@ public class DataInput {
 				pw.println("Set " + i + ": " + calc.getSets()[i][0] + " x " + calc.getSets()[i][1]); 
 			}
 
+			calc.machine(this.lifts[4]);
+			pw.println("\nExercise 5: Tricep Dips:");
+			for (int i = 0; i < calc.getSets().length; i++) {
+				pw.println("Set " + i + ": " + calc.getSets()[i][0] + " x " + calc.getSets()[i][1]); 
+			}
+	
+			calc.machine(this.lifts[5]);
+			pw.println("\nExercise 6: Tricep Pushdown:");
+			for (int i = 0; i < calc.getSets().length; i++) {
+				pw.println("Set " + i + ": " + calc.getSets()[i][0] + " x " + calc.getSets()[i][1]); 
+			}
 			
+			calc.machine(this.lifts[6]);
+			pw.println("\nExercise 7: Shoulder Press:");
+			for (int i = 0; i < calc.getSets().length; i++) {
+				pw.println("Set " + i + ": " + calc.getSets()[i][0] + " x " + calc.getSets()[i][1]); 
+			}
 
+			calc.machine(this.lifts[7]);
+			pw.println("\nExercise 8: Lateral/Front Raises:");
+			for (int i = 0; i < calc.getSets().length; i++) {
+				pw.println("Set " + i + ": " + calc.getSets()[i][0] + " x " + calc.getSets()[i][1]); 
+			}
+
+			calc.machine(this.lifts[8]);
+			pw.println("\nExercise 9: Clean and Press:");
+			for (int i = 0; i < calc.getSets().length; i++) {
+				pw.println("Set " + i + ": " + calc.getSets()[i][0] + " x " + calc.getSets()[i][1]); 
+			}
+			
 			break;
 		case 2:
 			// Pull Day
