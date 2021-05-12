@@ -70,8 +70,14 @@ public class DataInput {
 				pw.println("Set " + i + ": " + calc.getSets()[i][0] + " x " + calc.getSets()[i][1]);
 			}
 
-			calc.pyramid(this.lifts[1]);
+			calc.fivefive(this.lifts[1]);
 			pw.println("\nExercise 2: Incline Bench Press:");
+			for (int i = 0; i < calc.getSets().length; i++) {
+				pw.println("Set " + i + ": " + calc.getSets()[i][0] + " x " + calc.getSets()[i][1]); 
+			}
+
+			calc.machine(this.lifts[2]);
+			pw.println("\nExercise 3: Deltoid Flex:");
 			for (int i = 0; i < calc.getSets().length; i++) {
 				pw.println("Set " + i + ": " + calc.getSets()[i][0] + " x " + calc.getSets()[i][1]); 
 			}
