@@ -1,4 +1,6 @@
-Exercise 1: Bench Press
+Push Day - Chest, Shoulders and Triceps
+
+Exercise 1: Bench Press:
 Set 0: 90 x 10
 Set 1: 110 x 8
 Set 2: 125 x 6
@@ -6,3 +8,52 @@ Set 3: 140 x 4
 Set 4: 145 x 3
 Set 5: 155 x 2
 Set 6: 125 x 6
+
+Exercise 2: Incline Bench Press:
+Set 0: 115 x 5
+Set 1: 115 x 5
+Set 2: 115 x 5
+Set 3: 115 x 5
+Set 4: 115 x 5
+
+Exercise 3: Deltoid Flex:
+Set 0: 90 x 10
+Set 1: 90 x 10
+Set 2: 90 x 10
+Set 3: 90 x 10
+
+Exercise 4: Tricep Extension:
+Set 0: 60 x 10
+Set 1: 60 x 10
+Set 2: 60 x 10
+Set 3: 60 x 10
+
+Exercise 5: Tricep Dips:
+Set 0: 160 x 10
+Set 1: 160 x 10
+Set 2: 160 x 10
+Set 3: 160 x 10
+
+Exercise 6: Tricep Pushdown:
+Set 0: 75 x 10
+Set 1: 75 x 10
+Set 2: 75 x 10
+Set 3: 75 x 10
+
+Exercise 7: Shoulder Press:
+Set 0: 80 x 10
+Set 1: 80 x 10
+Set 2: 80 x 10
+Set 3: 80 x 10
+
+Exercise 8: Lateral/Front Raises:
+Set 0: 20 x 10
+Set 1: 20 x 10
+Set 2: 20 x 10
+Set 3: 20 x 10
+
+Exercise 9: Clean and Press:
+Set 0: 135 x 10
+Set 1: 135 x 10
+Set 2: 135 x 10
+Set 3: 135 x 10

@@ -112,7 +112,7 @@ public class DataInput {
 				pw.println("Set " + i + ": " + calc.getSets()[i][0] + " x " + calc.getSets()[i][1]); 
 			}
 
-			calc.machine(this.lifts[8]);
+			calc.fivefive(this.lifts[8]);
 			pw.println("\nExercise 9: Clean and Press:");
 			for (int i = 0; i < calc.getSets().length; i++) {
 				pw.println("Set " + i + ": " + calc.getSets()[i][0] + " x " + calc.getSets()[i][1]); 
@@ -121,7 +121,9 @@ public class DataInput {
 			break;
 		case 2:
 			// Pull Day
-		
+			
+			
+
 			break;
 		case 3:
 			// Leg Day
