@@ -121,7 +121,8 @@ public class DataInput {
 			break;
 		case 2:
 			// Pull Day
-			
+			pw.println("Pull Day - Back and Biceps.");
+
 			
 
 			break;
